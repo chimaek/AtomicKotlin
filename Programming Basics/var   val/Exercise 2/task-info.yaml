@@ -7,15 +7,18 @@ files:
     visible: true
     placeholders:
       - offset: 65
-        length: 7
+        length: 69
         placeholder_text: // TODO
         initial_state:
           length: 7
           offset: 65
         initialized_from_dependency: false
         encrypted_possible_answer: ZvXBa7bk21BzV1E4dqfPcx43Y9ZAW4T4jIbLUCrp2rIi3od2Gwe/XwosIi15IdrqWgVjDClSS2BjF/QhJ3fS4w==
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: 축하합니다!
+  time: "Mon, 03 Mar 2025 08:07:05 UTC"
 record: -1
