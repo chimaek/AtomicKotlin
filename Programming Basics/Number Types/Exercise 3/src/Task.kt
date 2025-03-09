@@ -2,10 +2,10 @@
 package numberTypesExercise3
 
 fun convertFahrenheitToCelsius(f: Int): Double =
-  TODO()
+  f.toDouble().let { (it - 32) * 5 / 9 }
 
 fun convertCelsiusToFahrenheit(c: Int): Double =
-  TODO()
+    c.toDouble().let { it * 9 / 5 + 32 }
 
 fun main() {
   println(convertFahrenheitToCelsius(68)) // 20.0

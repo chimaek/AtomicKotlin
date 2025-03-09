@@ -4,16 +4,16 @@ files:
     visible: true
     placeholders:
       - offset: 48
-        length: 16
+        length: 129
         placeholder_text: "fun showAnd() {}"
         initial_state:
           length: 16
           offset: 48
         initialized_from_dependency: false
         encrypted_possible_answer: lD+1dP/HwmduQ/LBoBQeDGwu0KszA8Mq5vqclk6q1pJJdMzW27NLitP6XGdSDLAq3r7KEoNzQKSncTdXqPyh2WiQJgqrINewS7HGQdWWEmNhdjsbszdT6G1WPs2QBTq/KlYWWuiEhCD7oI3AV32roA==
-        selected: false
-        status: Unchecked
-      - offset: 66
+        selected: true
+        status: Failed
+      - offset: 179
         length: 15
         placeholder_text: "fun showOr() {}"
         initial_state:
@@ -21,9 +21,9 @@ files:
           offset: 66
         initialized_from_dependency: false
         encrypted_possible_answer: 1VGEyOOlbZHkoz/d0XddwvxnyvLop/NXYptCY/hSw5RhSuLX7l6S4qCYmXuKDl1a2d2a2Bj5KCoLdT8ZI5Tmk0m61e4GKHy4D8WtUEGnjGtAVWd25PrEpv5qyUzP9BM39qF9S38p4dYk9Sq9+ESUcA==
-        selected: false
-        status: Unchecked
-      - offset: 108
+        selected: true
+        status: Failed
+      - offset: 221
         length: 6
         placeholder_text: TODO()
         initial_state:
@@ -31,11 +31,16 @@ files:
           offset: 108
         initialized_from_dependency: false
         encrypted_possible_answer: BClce5KSITe6acp4Vjuo/H8z0Gaqe+e7ioN3V1VfNl/kZ3vFLMPS/I7b4rjwqUQBi48o51KHTkXAvNP+MSWwEi7I7+kxMAH3etIjoZm/4YHomP+BzBDD37wChD8a8+KcPyWNjywuPv/btEOtXBR9L3utWAHTI/BOteBrFXAdcknuGaR2+484IlZzbPaJYj0Va9HjXDllB895RwqvenSHKB5dlIyIjL26kNjrRTY/0+FAAMLcht7wY+wWqe8E26Dg
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Failed
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Function &#39;showAnd&#39; is expected to have 2 parameter(s)
+  time: "Sun, 09 Mar 2025 09:06:30 UTC"
+  expected: 2
+  actual: 0
 record: -1
